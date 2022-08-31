@@ -5,7 +5,7 @@ import Home from './page/Home';
 import Works from './page/Works';
 import About from './page/About';
 
-import Bganimate from './component/Bganimate';
+// import Bganimate from './component/Bganimate';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/works" element={<Works/>}/>
       </Routes>
-      <Bganimate/>
+      {/* <Bganimate/> */}
     </BrowserRouter>
   );
 }
