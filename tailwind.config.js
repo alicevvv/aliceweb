@@ -13,7 +13,7 @@ module.exports = {
         'home':['5rem','6rem']
       },
       colors: {
-        main:'#fcf4e3',
+        main:'#f0f1f2',
         white: "#f5f5f5",
         black: "#423b36",
         yellow:{
@@ -36,10 +36,6 @@ module.exports = {
         'light':'0 0px 12px 0px #d6d6d6',
         'custom':'4px 4px 0px 0px #6b6b6b'
       },
-      backgroundImage:{
-        'aurora':"url('./assets/img/bg.jpg')",
-        'bubble':"url('./assets/img/bubble_bg.jpg')"
-      }
     },
   },
   plugins: [],

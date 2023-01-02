@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function Headers() {
   return (
-    <div className="w-screen absolute flex justify-center shadow-light bg-main border-black border-b-2 z-[200]">
+    <div className="w-full absolute flex justify-center shadow-light bg-main border-black border-b-2 z-[200]">
       <div className="md:w-8/12 w-9/12 h-12 flex flex-row flex-wrap justify-between items-center bg-transparent">
         <Button className="text-black" href="/"><span className='text-black font-bold text-lg'>Alice website</span></Button>
         <div>
