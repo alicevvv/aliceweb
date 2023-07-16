@@ -1,0 +1,34 @@
+[
+    {
+        "title":"前端框架",
+        "skills":[
+            {
+                "name":"React.js"
+            },{
+                "name":"Vue.js"
+            }
+        ]
+    },{
+        "title":"前端與其他框架",
+        "skills":[
+            {
+                "name":"HTML / CSS / Javascript"
+            },{
+                "name":"Bootstrap / Antdesign / Tailwind / SASS / SCSS"
+            }
+        ]
+    },{
+        "title":"介面設計．平面設計",
+        "skills":[
+            {
+                "name":"Figma"
+            },{
+                "name":"Adobe XD"
+            },{
+                "name":"Adobe Illustration / Adobe Photoshop"
+            },{
+                "name":"Adobe Premiere Pro / Adobe Effect"
+            }
+        ]
+    }
+]

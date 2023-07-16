@@ -1,10 +1,23 @@
 [
     {
-        "title":"公車網頁",
+        "title":"BusGo!",
         "url":"https://busgo-final-exam.vercel.app/",
-        "label":[
-            "React","Antdesign"
-        ],
-        "image":"./img/busgo.png"
+        "label":"React.js / Antdesign / API 串接",
+        "image":"./img/busgo.jpg"
+    },{
+        "title":"Greenable",
+        "url":null,
+        "label":"Figma",
+        "image":"./img/Greenable.jpg"
+    },{
+        "title":"台北捷運Go",
+        "url":null,
+        "label":"React.js / Figma / AR",
+        "image":"./img/MrtGo.jpg"
+    },{
+        "title":"閃簽",
+        "url":"https://2022-f2-eweek2.vercel.app/",
+        "label":"React.js / canva",
+        "image":"./img/Sign.jpg"
     }
 ]

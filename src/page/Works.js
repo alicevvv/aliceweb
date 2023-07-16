@@ -1,8 +1,5 @@
 import { Button } from "antd";
 import work1 from '../assets/img/works/greenable.png'
-import work2 from '../assets/img/works/chili.png'
-import work3 from '../assets/img/works/mushroom.png'
-import work4 from '../assets/img/works/workout.png'
 import workData from '../assets/json/code.json'
 
 export default function Works() {
@@ -38,9 +35,6 @@ export default function Works() {
         })
       }
       <img src={work1} className="bg-white border-black border-2 p-3 shadow-custom md:w-1/3 w-5/6 mb-4"></img>
-        <img src={work2} className="bg-white border-black border-2 p-3 shadow-custom md:w-1/6 w-5/6 mb-4"></img>
-          <img src={work3} className="bg-white border-black border-2 p-3 shadow-custom md:w-1/6 w-5/6 mb-4"></img>
-          <img src={work4} className="bg-white border-black border-2 p-3 shadow-custom md:w-1/6 w-5/6 mb-4"></img>
     </div>
   );
 }

@@ -1,0 +1,24 @@
+[
+    {
+        "title":"F2e",
+        "url":"https://2022-f2-eweek1.vercel.app/",
+        "label":"React.js",
+        "image":"./img/F2e.jpg"
+    },{
+        "title":"平面設計作品",
+        "url":"",
+        "label":"Adobe / Procreate",
+        "image":"./img/"
+    },{
+        "title":"其他作品",
+        "url":"",
+        "label":"",
+        "image":""
+    }
+    ,{
+        "title":"影像作品",
+        "url":"",
+        "label":"",
+        "image":""
+    }
+]

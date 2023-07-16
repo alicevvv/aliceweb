@@ -13,9 +13,13 @@ module.exports = {
         'home':['5rem','6rem']
       },
       colors: {
-        main:'#f0f1f2',
-        white: "#f5f5f5",
+        main:'#97A6B9',
+        white: "#fdfdfd",
         black: "#423b36",
+        textMain:"#637287",
+        gray:{
+          100:'cfcfcf',
+        },
         yellow:{
           light:'#fffdf5',
         },
