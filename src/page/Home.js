@@ -17,7 +17,7 @@ export default function Home() {
   const panelStyle = {
     marginBottom: 6,
     background: '#f0f4fa', //text-second
-    borderRadius: 24,
+    // borderRadius: 24, 
     border: 'none',
     fontWeight: 500,
   };
@@ -76,7 +76,23 @@ export default function Home() {
                             {
                                 deed.tasks?
                                 <ul className='list-disc mb-12 font-normal text-xl leading-8'>
-                                {deed.tasks.map((tasks)=>(
+                                  {
+                                    deed.tasks[0].key?
+                                    <Collapse
+                                          accordion={true}
+                                          items={deed.tasks}
+                                          style={panelStyle}
+                                          className='bg-white border-none mt-2 text-[18px] font-bold whitespace-pre-line'
+                                        >
+                                    </Collapse>:<>
+                                    {deed.tasks.map((tasks)=>(
+                                      <li className='ml-6'>
+                                      {tasks.name}
+                                     </li>
+                                    ))}
+                                    </>
+                                  }
+                                {/* {deed.tasks.map((tasks)=>(
                                     <div>
                                       {
                                         tasks.discription?
@@ -90,6 +106,7 @@ export default function Home() {
                                               style:panelStyle
                                             }
                                           ]}
+
                                           className='bg-white border-none mt-2 text-[18px] font-bold whitespace-pre-line'
                                         >
                                         </Collapse>
@@ -99,7 +116,7 @@ export default function Home() {
                                       }
                                       
                                     </div>
-                                ))}
+                                ))} */}
                                 </ul>:<></>
                             }
                             </li>
