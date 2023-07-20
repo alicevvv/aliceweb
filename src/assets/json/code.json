@@ -1,23 +1,37 @@
 [
     {
-        "title":"BusGo!",
-        "url":"https://busgo-final-exam.vercel.app/",
-        "label":"React.js / Antdesign / API 串接",
-        "image":"./img/busgo.jpg"
-    },{
         "title":"Greenable",
         "url":null,
-        "label":"Figma",
+        "label":[
+            {"name":"Figma"}
+        ],
         "image":"./img/Greenable.jpg"
+    },{
+        "title":"BusGo!",
+        "url":"https://busgogo.vercel.app/",
+        "label":[
+            {"name":"React.js"},
+            {"name":"RESTful API"},
+            {"name":"Antdesign"}
+        ],
+        "image":"./img/Busgo.jpg"
     },{
         "title":"台北捷運Go",
         "url":null,
-        "label":"React.js / Figma / AR",
+        "label":[
+            {"name":"React Native"},
+            {"name":"ViroReact"},
+            {"name":"Figma"}
+        ],
         "image":"./img/MrtGo.jpg"
     },{
         "title":"閃簽",
         "url":"https://2022-f2-eweek2.vercel.app/",
-        "label":"React.js / canva",
+        "label":[
+            {"name":"React.js"},
+            {"name":"fabric"},
+            {"name":"canvas"}
+        ],
         "image":"./img/Sign.jpg"
     }
 ]

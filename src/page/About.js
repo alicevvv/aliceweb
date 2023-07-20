@@ -1,4 +1,4 @@
-import myimg from '../assets/img/me.jpeg';
+import myimg from '../assets/img/me.jpg';
 import data from '../assets/json/about';
 
 export default function About(){
